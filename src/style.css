@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Geist Mono", serif;
+  text-transform: uppercase;
 }
 
 img {
@@ -19,5 +26,48 @@ a {
   color: inherit;
 }
 
-body {
+.navbar {
+  display: none;
+}
+
+.searchbar {
+  display: none;
+}
+
+.authentication {
+  display: none;
+}
+
+.header {
+  margin-top: 1rem;
+  /* padding-bottom: 1rem;
+  border-bottom: 1px solid; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header_btn {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid;
+  border-radius: 0.25rem;
+}
+
+.logo_link {
+  display: flex;
+  gap: 0.3rem;
+  align-items: center;
+}
+
+.logo_image {
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid;
+  border-radius: 0.75rem;
+  padding: 0.2rem;
 }
