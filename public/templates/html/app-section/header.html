@@ -1,51 +1,56 @@
-<div>
+<div class="container_fluid">
   <!-- hamburger section  -->
   <div class="header">
-    <div class="header_btn">
+    <div class="hamburger header_btn">
       <i class="fa-solid fa-bars"></i>
     </div>
     <!-- logo -->
 
-    <div>
-      <a href="/" class="logo_link">
-        <div class="logo_image">
-          <!-- <img src="../../../images/logo.png" alt="Soundarya Jewelry" /> -->
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            aria-label="Acme Store logo"
-            viewBox="0 0 32 28"
-            class="h-4 w-4 fill-black dark:fill-white h-[16px] w-[16px]"
-          >
-            <path
-              d="M21.5758 9.75769L16 0L0 28H11.6255L21.5758 9.75769Z"
-            ></path>
-            <path d="M26.2381 17.9167L20.7382 28H32L26.2381 17.9167Z"></path>
-          </svg>
-        </div>
-        <div><h3 class="logo_name">Alpha Store</h3></div>
-      </a>
+    <div class="nav_links_and_logo">
+      <div>
+        <a href="/" class="logo_link">
+          <div class="logo_image">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Acme Store logo"
+              viewBox="0 0 32 28"
+              class="h-4 w-4 fill-black dark:fill-white h-[16px] w-[16px]"
+            >
+              <path
+                d="M21.5758 9.75769L16 0L0 28H11.6255L21.5758 9.75769Z"
+              ></path>
+              <path d="M26.2381 17.9167L20.7382 28H32L26.2381 17.9167Z"></path>
+            </svg>
+          </div>
+          <div><h3 class="logo_name">Alpha Store</h3></div>
+        </a>
+      </div>
+      <!-- nav links -->
+      <nav>
+        <ul class="nav_links">
+          <li><a href="">All</a></li>
+          <li><a href="">Shirts</a></li>
+          <li><a href="">Stickers</a></li>
+        </ul>
+      </nav>
     </div>
-    <!-- nav links -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="">All</a></li>
-        <li><a href="">Shirts</a></li>
-        <li><a href="">Stickers</a></li>
-      </ul>
-    </nav>
 
     <!-- Center Section -->
     <!-- searchbar -->
     <div class="search_bar">
-      <form>
-        <input type="text" placeholder="Search for products" />
-        <button type="submit">
+      <form class="form_container">
+        <input
+          class="search_box"
+          type="text"
+          placeholder="Search for products..."
+        />
+        <button type="submit" class="magnifying_glass">
           <i class="fa-solid fa-magnifying-glass"></i>
         </button>
       </form>
     </div>
     <!-- Right Section -->
-    <div class="">
+    <div class="section_right">
       <!-- Shopping cart -->
       <div>
         <button type="button" class="header_btn">
