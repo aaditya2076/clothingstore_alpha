@@ -1,0 +1,146 @@
+<div class="container_fluid">
+  <!-- hamburger section  -->
+  <div class="header">
+    <div>
+      <div class="hamburger header_btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <!-- logo -->
+
+    <div class="nav_links_and_logo">
+      <div>
+        <a href="/" class="logo_link">
+          <div class="logo_image">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Acme Store logo"
+              viewBox="0 0 32 28"
+              class="h-4 w-4 fill-black dark:fill-white h-[16px] w-[16px]"
+            >
+              <path
+                d="M21.5758 9.75769L16 0L0 28H11.6255L21.5758 9.75769Z"
+              ></path>
+              <path d="M26.2381 17.9167L20.7382 28H32L26.2381 17.9167Z"></path>
+            </svg>
+          </div>
+          <div><h3 class="logo_name">Alpha Store</h3></div>
+        </a>
+      </div>
+      <!-- nav links -->
+      <nav>
+        <ul class="nav_links">
+          <li class="underline"><a href="">All</a></li>
+          <li class="underline"><a href="">Shirts</a></li>
+          <li class="underline"><a href="">Stickers</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Center Section -->
+    <!-- searchbar -->
+    <div class="search_bar">
+      <form class="form_container">
+        <input
+          class="search_box"
+          type="text"
+          placeholder="Search for products..."
+        />
+        <button type="submit" class="magnifying_glass">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+    <!-- Right Section -->
+    <div class="section_right">
+      <!-- Shopping cart -->
+      <div class="cart">
+        <button type="button" class="header_btn">
+          <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+      </div>
+      <!-- Login and signup -->
+      <div class="authentication">
+        <div class="login"><button type="button">Log In</button></div>
+        <div class="signup"><button type="button">Register</button></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Navbar Section -->
+  <div class="mobile_navbar_container">
+    <div class="mobile_header_btn">
+      <button type="submit">
+        <i class="fa-solid fa-xmark" style="font-size: 1.5rem"></i>
+      </button>
+    </div>
+    <div class="mobile_search_bar">
+      <form class="mobile_form_container">
+        <input
+          class="mobile_search_box"
+          type="text"
+          placeholder="Search for products..."
+        />
+        <button type="submit" class="mobile_magnifying_glass">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </div>
+    <div>
+      <nav>
+        <ul class="mobile_nav_links">
+          <li class="mobile_hover"><a href="">All</a></li>
+          <li class="mobile_hover"><a href="">Shirts</a></li>
+          <li class="mobile_hover"><a href="">Stickers</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Mobile Login and Signup -->
+    <div class="mobile_authentication">
+      <div class="mobile_login"><button type="button">Log In</button></div>
+      <div class="mobile_signup"><button type="button">Register</button></div>
+    </div>
+  </div>
+
+  <!-- Login and Signup Form -->
+  <!-- Login -->
+  <div>
+    <form action="" class="login_form">
+      <label for="username">Username</label>
+      <input type="text" name="username" id="username" required />
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" required />
+      <button type="submit">Login</button>
+      <a href="">Forget Password?</a>
+      <a href="">Register Now</a>
+    </form>
+  </div>
+  <div>
+    <!-- Signup Form -->
+    <form action="" class="signup_form">
+      <label for="first_name">First Name</label>
+      <input
+        type="text"
+        name="first_name"
+        id="first_name"
+        required
+        maxlength="20"
+      />
+      <label for="middle_name">Middle Name(Optional)</label>
+      <input type="text" name="middle_name" id="middle_name" maxlength="20" />
+      <label for="last_name">Last Name</label>
+      <input
+        type="text"
+        name="last_name"
+        id="last_name"
+        required
+        maxlength="20"
+      />
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" required />
+      <label for="contact">Contact number</label>
+      <input type="tel" name="contact" id="contact" required maxlength="10" />
+      <button type="submit">Register</button>
+      <a href="">Already have an account?</a>
+    </form>
+  </div>
+</div>
